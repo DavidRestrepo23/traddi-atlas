@@ -65,6 +65,7 @@ header h1 p {
 form {
   background-color: #fff;
   padding: 25px 10px;
+  border-radius: 10px;
   -webkit-box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.28);
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.28);
 }
@@ -199,6 +200,7 @@ form span {
 .beneficios-traddi .transaction:hover {
   background-image: url("../img/Icon_Transacciones_Activo.png");
   background-size: 110px;
+  border-radius: 10px;
 }
 
 .beneficios-traddi .operation {
@@ -213,6 +215,7 @@ form span {
 .beneficios-traddi .operation:hover {
   background-image: url("../img/Icon_Operaciones_Activo.png");
   background-size: 110px;
+  border-radius: 10px;
 }
 
 .beneficios-traddi .process {
@@ -227,6 +230,7 @@ form span {
 .beneficios-traddi .process:hover {
   background-image: url("../img/Icon_Procesos_Activo.png");
   background-size: 110px;
+  border-radius: 10px;
 }
 
 .beneficios-traddi .traza {
@@ -241,6 +245,7 @@ form span {
 .beneficios-traddi .traza:hover {
   background-image: url("../img/Icon_Trazabilidad_Activo.png");
   background-size: 110px;
+  border-radius: 10px;
 }
 
 .beneficios-traddi .consigna {
@@ -256,6 +261,7 @@ form span {
   background-image: url("../img/Icon_Consignaciones_Activo.png");
   background-size: 60%;
   background-size: 110px;
+  border-radius: 10px;
 }
 
 .beneficios-traddi .block-text {
@@ -272,6 +278,7 @@ form span {
 .beneficios-traddi .block-text:hover {
   -webkit-box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.28);
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.28);
+  border-radius: 10px;
 }
 
 .beneficios-traddi .block-text h2 {
