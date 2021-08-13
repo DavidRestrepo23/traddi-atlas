@@ -273,8 +273,6 @@ form span {
   padding: 30px;
 }
 
-
-
 .beneficios-traddi .block-text:hover {
   -webkit-box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.28);
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.28);
@@ -497,40 +495,26 @@ footer .container {
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.28);
   }
 
-  .slick-list {
-    padding-left: 30px;
-    background: #fff;
-    color: white;
-  }
-
-  .slick-active p {
-    color: #000;
-  }
-
-  .slick-active img {
-    margin: 0 auto;
-  }
-
-  .slick-active p {
-    width: 88%;
-    margin-left: 30px;
-    font-weight: 600;
-    padding: 10px 20px;
-  }
-
-  .slick-current img {
+  .slick-slide img {
     width: 100%;
-    height: 250px;
-    object-fit: cover;
     border-radius: 10px 10px 0 0;
   }
 
-  .slick-current p {
-    width: 90%;
-    margin-right: 30px;
-    margin-left: 0px;
-    color: #000 !important;
+  .slick-slide p {
+    margin: 0;
+    padding: 10px;
   }
+
+    /* the slides */
+    .slick-slide {
+      margin: 0 27px;
+    }
+    /* the parent */
+    .slick-list {
+      margin: 0 -27px;
+      padding-bottom: 20px;
+    }
+  
 }
 
 @media (min-width: 1500px) {
@@ -737,6 +721,14 @@ footer .container {
     background-color: #2a57aa;
   }
 
+  .slick-prev:hover {
+    background-color: #2a57aa;
+  }
+
+  .slick-prev:hover i {
+    color: #fff;
+  }
+
   .carousel-slick .slick-prev:hover i,
   .slick-next:hover i {
     color: #fff;
@@ -801,6 +793,25 @@ footer .container {
 
   .slider-beneficios .block-mobile .text {
     margin-top: 100px;
+  }
+
+  .slick-prev {
+    right: 0;
+    left: -60px;
+    margin: 0 auto;
+    top: -45px;
+  }
+
+  .slick-next {
+    right: -35px;
+    left: 0px;
+    margin: 0 auto;
+    top: -45px;
+  }
+
+
+  .slider-beneficios i {
+    color: #ba0319;
   }
 
   footer h3,
