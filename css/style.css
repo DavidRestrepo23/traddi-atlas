@@ -11,6 +11,11 @@ header {
   height: 1110px;
 }
 
+header nav .header-title {
+  color: #fff;
+  font-size: 23px;
+}
+
 .nav-fixed {
   margin: 0;
   padding: 0;
@@ -954,5 +959,22 @@ footer .container {
   .box-thankyou .times {
     color: #2a57aa;
     font-size: 28px;
+  }
+}
+
+
+.logo-tva {
+  background-color: #fff;
+}
+
+@media (min-width: 1200px) {
+  .video-banner {
+    margin-top: -120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .video-banner iframe {
+    height: 350px;
   }
 }
